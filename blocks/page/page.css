@@ -1,5 +1,16 @@
 .page {
     background-color: #2A2C2F;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 28px 0 24px;
+    width: 100vw;
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        padding-top: 16px;
+    }
+    
 }
