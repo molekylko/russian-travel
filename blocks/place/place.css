@@ -1,0 +1,38 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 460px));
+    grid-template-areas: 
+    "title website"
+    "image text";
+    gap: 48px 40px;
+    max-width: 984px;
+    margin: 92px auto 83px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin-left: 4.6%;
+        margin-right: 4.6%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        margin: 12% auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "text";
+        }
+        
+}
+
+@media screen and (max-width: 424px) {
+    .place {
+
+    }
+    
+}
