@@ -1,0 +1,11 @@
+.footer__column-list-item {
+    display: inline;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer__column-list-item  {
+        display: list-item;
+        margin-bottom: 35px;
+    }
+}

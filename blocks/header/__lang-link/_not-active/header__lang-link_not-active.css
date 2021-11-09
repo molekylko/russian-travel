@@ -1,0 +1,9 @@
+.header__lang-link_not-active {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.header__lang-link_not-active:hover {
+    opacity: 0.8;
+}
