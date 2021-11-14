@@ -33,3 +33,27 @@
     src: url(../fonts/Inter-ExtraBold.woff2);
     font-weight: bolder;
 }
+
+@font-face {
+    font-family: 'Inter-Black';
+    src: url(../fonts/Inter-Black.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Black';
+    src: url(../fonts/Inter-Black.woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter-BlackItalic';
+    src: url(../fonts/Inter-BlackItalic.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter-BlackItalic';
+    src: url(../fonts/Inter-BlackItalic.woff2);
+    font-weight: normal;
+}
