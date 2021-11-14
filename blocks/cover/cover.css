@@ -12,23 +12,8 @@
     position: relative;
 }
 
-.cover::before {
-    content: "";
-    position: absolute;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.cover:hover:before {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 768px) {
     .cover {
-        height: 100vw;
+        min-height: 100vw;
     }
 }
