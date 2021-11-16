@@ -9,10 +9,12 @@
     margin: 92px auto 83px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place {
-        margin-left: 4.6%;
-        margin-right: 4.6%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
+        grid-template-columns: repeat(2, minmax(340px, 50%));
+        gap: 48px 32px;
     }
     
 }

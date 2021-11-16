@@ -1,8 +1,9 @@
 .footer__copyright {
     margin: 0;
     max-width: 200px;
+    max-height: 14px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.14;    
 }
