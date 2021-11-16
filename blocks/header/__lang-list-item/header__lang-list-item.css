@@ -1,0 +1,8 @@
+.header__lang-list-item {
+
+
+}
+
+.header__lang-list-item:first-child {
+    margin-right: 18px;
+}
