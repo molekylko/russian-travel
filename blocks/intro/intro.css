@@ -4,16 +4,16 @@
     text-align: left;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .intro {
-        margin: 11.5% 3.1%;
+        margin: 92px 0 92px 48px;
     }    
 }
-/*
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 768px) {
     .intro {
-        margin: 12% 3.3%;
+        margin: 88px 24px;
         max-width: 93.5%;
     }    
 }
