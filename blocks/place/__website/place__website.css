@@ -9,3 +9,10 @@
     }
     
 }
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        margin-left: 5%;
+    }
+    
+}

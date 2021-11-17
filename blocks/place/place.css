@@ -28,8 +28,8 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        margin: 12% auto;
-        gap: 48px 28px;
+        margin: 0 auto 50px;
+        gap: 32px;
         grid-template-columns: auto;
         grid-template-areas: 
         "title"
