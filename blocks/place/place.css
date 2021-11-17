@@ -11,17 +11,25 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        margin-left: 4.6%;
-        margin-right: 4.6%;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
         grid-template-columns: repeat(2, minmax(340px, 47.5%));
         gap: 48px 32px;
     }
     
 }
 
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 48px 28px;
+        grid-template-columns: repeat(2, minmax(auto, 45.8%));
+        margin-bottom: 73px;
+}
+
 @media screen and (max-width: 767px) {
     .place {
         margin: 12% auto;
+        gap: 48px 28px;
         grid-template-columns: auto;
         grid-template-areas: 
         "title"
@@ -31,4 +39,3 @@
         }
         
 }
-
