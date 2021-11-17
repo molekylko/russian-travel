@@ -24,6 +24,7 @@
         gap: 48px 28px;
         grid-template-columns: repeat(2, minmax(auto, 45.8%));
         margin-bottom: 73px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -36,6 +37,5 @@
         "website"
         "image"
         "text";
-        }
-        
+    }
 }
