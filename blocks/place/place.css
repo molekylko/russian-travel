@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        margin-left: 3.1%;
-        margin-right: 3.1%;
+        margin-left: 5%;
+        margin-right: 5%;
         grid-template-columns: repeat(2, minmax(340px, 47.5%));
         gap: 48px 32px;
     }
@@ -21,9 +21,11 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        gap: 48px 28px;
-        grid-template-columns: repeat(2, minmax(auto, 45.8%));
+        gap: 48px 38px;
+        grid-template-columns: 330px 363px;
         margin-bottom: 73px;
+        margin-left: 3.1%;
+        margin-right: 3.1%;
     }
 }
 
